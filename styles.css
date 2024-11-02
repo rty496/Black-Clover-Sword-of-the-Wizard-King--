@@ -1,0 +1,95 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background.jpg'); /* Фоновое изображение */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.movie-details {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.poster {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.play-button {
+    background-color: #030303;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover {
+    background-color: #050404;
+}
+
+/* Нижний колонтитул */
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    font-size: 14px;
+    color: #cccccc;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    border-radius: 10px;
+}
